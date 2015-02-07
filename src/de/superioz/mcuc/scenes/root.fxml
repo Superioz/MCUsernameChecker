@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="320.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.superioz.mcuc.scenes.RootController">
+   <top>
+      <MenuBar prefHeight="20.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Programm">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleExitProgram" text="Beenden" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Hilfe">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleHelp" text="Programmnutzung" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Über">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="Dieses Programm" />
+               </items></Menu>
+        </menus>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#535b5e" />
+         </effect>
+      </MenuBar>
+   </top>
+</BorderPane>

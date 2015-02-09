@@ -29,7 +29,7 @@ public class FunctionController {
     @FXML
     private ProgressIndicator progressIndicator;
 
-    // setting mainapp to use
+    // setting main to use
     public void setMain(Main main){
         this.app = main;
     }

@@ -14,10 +14,10 @@ public class PremiumChecker {
         boolean isPrem = false;
 
         try {
-            // URL für Überprüfung
+            // url of minecraft premium checker
             URL url = new URL("https://www.minecraft.net/haspaid.jsp?user=" + username);
 
-            // Bekomme Text aus dem AutorisationslinkSuper
+            // getting value of the url
             BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
             String str;
 
@@ -25,7 +25,7 @@ public class PremiumChecker {
                 isPrem = convertStringToBoolean(str);
             }
 
-            // Schließe Stream
+            // close stream
             in.close();
         }catch (IOException ex) {
             System.out.println(ex.getMessage());

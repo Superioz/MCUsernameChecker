@@ -11,7 +11,7 @@ public class UsernameVerifier {
     public static boolean verifyUsername(String username, Main application){
         boolean isVerified = false;
 
-        // Erstelle Pattern um String besser zu verifizieren (mit Regex)
+        // creating patterns to better check the username
         Pattern pattern = Pattern.compile("[a-zA-Z_0-9]*");
         Matcher matcher = pattern.matcher(username);
 

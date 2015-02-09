@@ -9,16 +9,16 @@ import javafx.scene.control.Alert;
  */
 public class RootController {
 
-    // Variablen
+    // variables
     public Main app;
 
-    // Übergebe die Mainapp zum bearbeiten
+    // setting main app to use
     public void setMain(Main main){
         this.app = main;
     }
 
     /*
-    Verlasse das Programm, wenn der Exit Button gedrückt wird
+    Exit programm, when clicked
      */
     @FXML
     public void handleExitProgram(){
@@ -26,7 +26,7 @@ public class RootController {
     }
 
     /*
-    Zeige Hilfe Dialog, wenn Help Button gedrückt wurde
+    show help dialog, when clicked
      */
     @FXML
     public void handleHelp(){
@@ -44,7 +44,7 @@ public class RootController {
     }
 
     /*
-    Zeige Dialog über Author, wenn About Button gedrückt wurde
+    show dialog about author
      */
     @FXML
     public void handleAbout(){

@@ -18,10 +18,10 @@ import java.util.TimerTask;
  */
 public class FunctionController {
 
-    // Variablen
+    // variables
     public Main app;
 
-    // FXML Variablen
+    // FXML variables
     @FXML
     private TextField textField;
     @FXML
@@ -35,7 +35,7 @@ public class FunctionController {
     }
 
     /*
-    Überprüfe ob der eingegebe Name ein Premium Account ist
+    checking if name is premium
      */
     @FXML
     public void handleCheckUsername(){
@@ -52,25 +52,25 @@ public class FunctionController {
         progressIndicator.setVisible(true);
         final boolean[] isPremium = {false};
 
-        // Setze den Timer neu um Text verschwinden zu lassen
+        // setting timer to fade in text and chec the username in other thread
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
                 isPremium[0] = PremiumChecker.checkUsername(givenName, app);
 
-                // Nachdem Server angepingt wurde, kann weitergemacht werden
+                // setting progress unvisible
                 progressIndicator.setVisible(false);
 
                 Platform.runLater(() -> {
-                    // Nehme isPremium und setze entsprechend das Label
+                    // setting the result label
                     resultLabel.setVisible(true);
                     setResultLabel(isPremium[0]);
                 });
             }
         }, 60*25);
 
-        // Setze den Timer neu um Text verschwinden zu lassen
+        // setting timer to
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

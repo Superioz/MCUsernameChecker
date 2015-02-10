@@ -1,6 +1,6 @@
-package main.de.superioz.mcusernamechecker.scenes;
+package main.de.superioz.mcuc.scenes;
 
-import main.de.superioz.mcusernamechecker.Main;
+import main.de.superioz.mcuc.Main;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 

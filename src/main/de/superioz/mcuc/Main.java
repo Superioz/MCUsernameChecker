@@ -1,7 +1,7 @@
-package main.de.superioz.mcusernamechecker;
+package main.de.superioz.mcuc;
 
-import main.de.superioz.mcusernamechecker.scenes.FunctionController;
-import main.de.superioz.mcusernamechecker.scenes.RootController;
+import main.de.superioz.mcuc.scenes.FunctionController;
+import main.de.superioz.mcuc.scenes.RootController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

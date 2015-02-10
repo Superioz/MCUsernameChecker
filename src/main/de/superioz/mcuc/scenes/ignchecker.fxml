@@ -6,7 +6,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="320.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.de.superioz.mcusernamechecker.scenes.FunctionController">
+<AnchorPane prefHeight="320.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.de.superioz.mcuc.scenes.FunctionController">
    <children>
       <Label layoutX="29.0" layoutY="161.0" prefHeight="23.0" prefWidth="102.0" text="Username:" AnchorPane.leftAnchor="29.0" AnchorPane.topAnchor="161.0">
          <font>

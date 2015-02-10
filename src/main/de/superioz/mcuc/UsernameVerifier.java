@@ -1,4 +1,4 @@
-package main.de.superioz.mcusernamechecker;
+package main.de.superioz.mcuc;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

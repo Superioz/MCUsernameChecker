@@ -1,4 +1,4 @@
-package main.de.superioz.mcusernamechecker;
+package main.de.superioz.mcuc;
 
 import java.io.BufferedReader;
 import java.io.IOException;

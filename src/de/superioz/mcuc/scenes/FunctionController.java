@@ -35,7 +35,7 @@ public class FunctionController {
     }
 
     /*
-    checking if username is premium
+    checking if name is premium
      */
     @FXML
     public void handleCheckUsername(){

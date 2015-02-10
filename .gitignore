@@ -10,4 +10,7 @@
 hs_err_pid*
 
 # ide files
-/.idea
+*.iml
+.idea/
+out/
+.idea_modules/

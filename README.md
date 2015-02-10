@@ -1,8 +1,8 @@
 # MCUsernameChecker
-Ein sehr simpel programmiertes Tool zur Überprüfung eines Usernames, ob dieser Premium ist.
+A very simple tool, to check if a minecraft username is already a premium user or not.
+Every message is written in german, because some of my friends wanted to use them for themselves.
 
-Die Benutzung ist relativ einfach und funktioniert so:
+The usage is similarly simple:
 
-1. Man gibt einen Username ein, der die Standard Minecraft Regeln beinhalten sollte, also nur folgende Zeichen: 'a-z', 'A-Z', '0-9' und '_'
-2. Man drückt auf den Button. Daraufhin überprüft das Programm den Usernamen und gibt eine entsprechende Antwort aus.
-Bei Fehlern wird einem ein Dialog geöffnet.
+1. You type in a username with following allowed characters: 'a-z', 'A-Z', '0-9' and '_'
+2. You press the button to check. It's pretty simple, isn't it? ^^

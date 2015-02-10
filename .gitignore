@@ -14,3 +14,9 @@ hs_err_pid*
 .idea/
 out/
 .idea_modules/
+
+$ echo '.idea' >> .gitignore
+$ git rm -r --cached .idea
+$ git add .gitignore
+$ git commit -m '(some message stating you added .idea to ignored entries)'
+$ git push
